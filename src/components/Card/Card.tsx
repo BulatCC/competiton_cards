@@ -36,7 +36,7 @@ const Card = ({ cardData: { _id, title, eventStarts, registrationEnd, descriptio
             </div>
             <div className={style['card_container']}>
                 {
-                    isParticipant && <p className={style['card_sub-title']}>You are participant!</p>
+                    isParticipant && !isEventOver && <p className={style['card_sub-title']}>You are participant!</p>
                 }
                 {
                     !isParticipant && !isEventOver && <>
