@@ -1,0 +1,17 @@
+.tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.4rem 1.6rem;
+    min-height: 3.2rem;
+    background-color: var(--color-light-grey);
+    border-radius: 1.6rem;
+    color: var(--color-grey);
+
+    & + .tag {
+        margin-left: 1.6rem;
+    }
+}
+
+.tag_img {
+    margin-right: 0.9rem;
+}

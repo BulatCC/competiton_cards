@@ -1,0 +1,24 @@
+.timer {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.timer_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem;
+    width: 7.3rem;
+    height: 7.3rem;
+    border: 0.2rem solid var(--color-border);
+    border-radius: 1rem;
+}
+
+.timer_number {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.timer_title {
+    color: var(--color-grey);
+}
