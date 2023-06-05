@@ -22,7 +22,7 @@ const Card = ({ cardData: { _id, title, eventStarts, registrationEnd, descriptio
     }
 
     return (
-        <article className={style['card']}>
+        <li className={style['card']}>
             <div>
                 <h2 className={style['card_title']}>{title}</h2>
                 <p className={style['card_event-time']}>Starts At {startsTime} (Moscow Time)</p>
@@ -49,7 +49,7 @@ const Card = ({ cardData: { _id, title, eventStarts, registrationEnd, descriptio
                     isEventOver && <p className={style['card_sub-title']}>This competition is over</p>
                 }
             </div>
-        </article>
+        </li>
     );
 };
 
